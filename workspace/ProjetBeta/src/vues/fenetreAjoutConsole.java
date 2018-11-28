@@ -16,7 +16,6 @@ import Pojo.Admin;
 
 
 
-public class FenetreAjoutConsole extends JFrame {
 	/**
 	 * 
 	 */
@@ -31,7 +30,6 @@ public class FenetreAjoutConsole extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FenetreAjoutConsole frame = new FenetreAjoutConsole(A);
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -40,7 +38,6 @@ public class FenetreAjoutConsole extends JFrame {
 		});
 	}
 
-	public FenetreAjoutConsole(Admin A) {
 		setTitle("Ajouter un jeu");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 481);

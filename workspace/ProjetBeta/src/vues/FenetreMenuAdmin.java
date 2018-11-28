@@ -72,7 +72,7 @@ public class FenetreMenuAdmin extends JFrame {
 		btnCreerReservation.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				dispose();
-				FenetreAjoutConsole.fenetreAjoutConsole(admin);
+				fenetreAjoutConsole.fenetreAjoutConsole(admin);
 				//FenetreAjoutJeu.fenetreAjoutJeu(pseudo);
 			}
 		});

@@ -90,7 +90,7 @@ public class FenetreMenuEmprunteur extends JFrame {
 
 		JButton btnVoirProfil = new JButton("Voir profil");
 			btnVoirProfil.addActionListener(e -> {
-				FenetreProfil.fenetreProfil(p);
+				fenetreProfil.fenetreProfil(p);
 				dispose();
 			});
 		btnVoirProfil.setBackground(Color.WHITE);
